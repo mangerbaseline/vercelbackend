@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "openai": "^5.8.2",
+    "serverless-http": "^3.2.0"
+  },
+  "scripts": {
+    "vercel-build": "echo 'Build complete for Vercel'",
+    "dev": "nodemon api/intake.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
